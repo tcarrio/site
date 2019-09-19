@@ -117,19 +117,19 @@ const Wrapper = styled(Column)`
       letter-spacing: -0.38px;
     }
 
+    a {
+      border-bottom: 1px solid #fd5750;
+
+      &:hover {
+        border-bottom: none;
+      }
+    }
+
     p {
       margin-top: 32px;
       margin-bottom: 32px;
       line-height: 26px;
       letter-spacing: 0px;
-
-      a {
-        border-bottom: 1px solid #fd5750;
-
-        &:hover {
-          border-bottom: none;
-        }
-      }
     }
 
     h3 {
