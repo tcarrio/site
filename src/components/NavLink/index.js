@@ -18,8 +18,8 @@ const getLinkStyle = ({ backgroundOnHover }) => `
           width: 25px;
           height: 20px;
           position: absolute;
-          left: -10px;
-          top: -5px;
+          top: 1.5em;
+          left: -2em;
           background: url(${dotGridBacground});
           background-size: cover;
           display: none;
